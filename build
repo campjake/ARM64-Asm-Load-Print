@@ -1,0 +1,2 @@
+as -g -o lab5.o lab5.s
+ld -o lab5 lab5.o ../obj/putstring-1.o ../obj/putch.o ../obj/String_length.o ../obj/int64asc.o
